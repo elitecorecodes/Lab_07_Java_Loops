@@ -14,5 +14,13 @@ public class Main {
         }
 
         System.out.println();
+
+        System.out.println("Task 3: Count Up by 3 from 0 to 18");
+
+        for (int count = 0; count <= 18; count += 3) {
+            System.out.print(count + " ");
+        }
+
+        System.out.println();
     }
 }
