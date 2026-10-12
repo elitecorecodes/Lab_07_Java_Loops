@@ -39,5 +39,14 @@ public class Main {
             }
             System.out.println();
         }
-    }
-}
+            System.out.println("Task 6: Triangle Pattern");
+
+            for (int row = 1; row <= 5; row++) {
+                for (int column = 1; column <= row; column++) {
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
+
+        } // Closes the main method
+    } // Closes the Main class
