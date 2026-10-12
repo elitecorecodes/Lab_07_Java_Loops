@@ -46,7 +46,18 @@ public class Main {
                     System.out.print("* ");
                 }
                 System.out.println();
-            }
+            } // Closes Task 6 outer loop
 
-        } // Closes the main method
-    } // Closes the Main class
+        System.out.println();
+
+        System.out.println("Task 7: Inverted Triangle Pattern");
+
+        for (int row = 5; row >= 1; row--) {
+            for (int column = 1; column <= row; column++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+    } // Closes the main method
+} // Closes the Main class
