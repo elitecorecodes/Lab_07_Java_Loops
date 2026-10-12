@@ -6,5 +6,13 @@ public class Main {
         }
 
         System.out.println();
+
+        System.out.println("Task 2: Count Down from 30 to 0");
+
+        for (int count = 30; count >= 0; count--) {
+            System.out.print(count + " ");
+        }
+
+        System.out.println();
     }
 }
