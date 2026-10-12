@@ -30,5 +30,14 @@ public class Main {
         }
 
         System.out.println();
+
+        System.out.println("Task 5: Square Pattern");
+
+        for (int row = 1; row <= 5; row++) {
+            for (int column = 1; column <= 5; column++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
