@@ -22,5 +22,13 @@ public class Main {
         }
 
         System.out.println();
+
+        System.out.println("Task 4: Count Down by 2 from 10 to 0");
+
+        for (int count = 10; count >= 0; count -= 2) {
+            System.out.print(count + " ");
+        }
+
+        System.out.println();
     }
 }
